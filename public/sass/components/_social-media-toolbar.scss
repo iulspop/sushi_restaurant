@@ -1,0 +1,18 @@
+.social-media-toolbar {
+	position: fixed;
+	top: 50%;
+	height: 21rem;
+	width: 3rem;
+	padding: 1rem 0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: $color-secondary;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	&__link {
+		align-self: center;
+	}
+}
