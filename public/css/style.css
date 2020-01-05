@@ -13,3 +13,7 @@ body {
 
 body {
   font-family: sans-serif; }
+
+.nav {
+  width: 100vw;
+  background-color: #F9E0D9; }
