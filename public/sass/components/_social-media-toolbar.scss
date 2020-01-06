@@ -1,11 +1,11 @@
 .social-media-toolbar {
 	position: fixed;
-	top: 50%;
+	top: 40%;
 	height: 21rem;
 	width: 3rem;
 	padding: 1rem 0;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
 	background-color: $color-secondary;
 
 	display: flex;
@@ -14,5 +14,22 @@
 
 	&__link {
 		align-self: center;
+	}
+
+	&__arrow {
+		position: absolute;
+		top: 80px;
+		left: 30px;
+		height: 5rem;
+		width: 2rem;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		background-color: $color-secondary;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		text-decoration: none;
 	}
 }
