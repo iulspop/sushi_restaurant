@@ -48,13 +48,20 @@ a {
     display: flex;
     justify-content: space-between; }
   .nav__right {
-    align-self: center; }
+    align-self: center;
+    position: relative; }
   .nav__logo {
     font-size: 2.3rem; }
   .nav__link {
     font-weight: 700; }
   .nav__number {
     font-size: 2.3rem; }
+  .nav__number-cta {
+    position: absolute;
+    width: 200px;
+    font-size: 1.5rem;
+    bottom: 30px;
+    left: -16px; }
 
 body {
   padding-right: 8.3%;

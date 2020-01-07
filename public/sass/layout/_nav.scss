@@ -28,6 +28,8 @@
 
 	&__right {
 		align-self: center;
+
+		position: relative;
 	}
 
 	&__logo {
@@ -43,6 +45,10 @@
 	}
 
 	&__number-cta {
-		
+		position: absolute;
+		width: 200px;
+		font-size: 1.5rem;
+		bottom: 30px;
+		left: -16px;
 	}
 }
