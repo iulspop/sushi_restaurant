@@ -8,7 +8,7 @@
 	&__fixed-width-container { //used to center nav links and keep them close obn 4k screens
 		width: 100%;
 		max-width: 1588px;
-		height: 125px;
+		height: 135px;
 
 		display: flex;
 		justify-content: space-between;	
@@ -18,15 +18,15 @@
 		align-self: center;
 	}
 
-	&__right {
+	&__middle {
 		align-self: center;
-		flex-basis: 40rem;
 
+		flex-basis: 20rem;
 		display: flex;
 		justify-content: space-between;
 	}
 
-	&__link {
-		text-decoration: none;
+	&__right {
+		align-self: center;
 	}
 }
