@@ -1,7 +1,6 @@
 .nav {
 	width: 100%;
-	padding: 0 3rem;
-	background-color: $color-secondary;
+	background-color: $color-transparent;
 
 	display: flex;
 	justify-content: center;
@@ -9,7 +8,7 @@
 	&__fixed-width-container { //used to center nav links and keep them close obn 4k screens
 		width: 100%;
 		max-width: 1588px;
-		height: 50px;
+		height: 125px;
 
 		display: flex;
 		justify-content: space-between;	
