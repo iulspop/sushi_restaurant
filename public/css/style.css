@@ -23,15 +23,6 @@ a {
   text-decoration: none;
   color: #000; }
 
-.logo-typography {
-  font-size: 2.3rem; }
-
-.nav-link-typography {
-  font-weight: 700; }
-
-.nav-number-typography {
-  font-size: 2.3rem; }
-
 .banner {
   height: 40rem;
   background-image: url("../img/sushi-plate-2.jpg");
@@ -58,6 +49,12 @@ a {
     justify-content: space-between; }
   .nav__right {
     align-self: center; }
+  .nav__logo {
+    font-size: 2.3rem; }
+  .nav__link {
+    font-weight: 700; }
+  .nav__number {
+    font-size: 2.3rem; }
 
 body {
   padding-right: 8.3%;
