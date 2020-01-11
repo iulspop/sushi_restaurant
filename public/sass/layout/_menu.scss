@@ -3,9 +3,21 @@
 	display: flex;
 	justify-content: center;
 
+	&__title {
+		text-align: center;
+	}
+
 	&__item {
+		margin-bottom: 1.3rem;
+	}
+
+	&__item-header {
 		display: flex;
 		flex-basis: 10rem;
+	}
+
+	&__item-name {
+		font-weight: 700;
 	}
 
 	&__dotted-line {

@@ -61,9 +61,15 @@ a {
   margin: 5rem 0;
   display: flex;
   justify-content: center; }
+  .menu__title {
+    text-align: center; }
   .menu__item {
+    margin-bottom: 1.3rem; }
+  .menu__item-header {
     display: flex;
     flex-basis: 10rem; }
+  .menu__item-name {
+    font-weight: 700; }
   .menu__dotted-line {
     flex-grow: 1;
     border-bottom: dotted black 2px;
