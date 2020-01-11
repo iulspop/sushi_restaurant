@@ -1,14 +1,11 @@
-.footer {
+.menu {
+	margin: 5rem 0;
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	justify-content: center;
 
-	&__schedule {
-		flex-basis: 25rem;
-	}
-
-	&__day-schedule {
+	&__item {
 		display: flex;
+		flex-basis: 10rem;
 	}
 
 	&__dotted-line {
