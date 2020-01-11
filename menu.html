@@ -38,7 +38,7 @@
 			<div>
 				<div class="menu__section-title">
 					<h2>Nos Spécialités</h2>
-					<button id="button-1" onclick="showHideMenuSection()">Afficher</button>
+					<button id="button-1" onclick="showHideMenuSection('button-1', 'menu-item-list-1')">Afficher</button>
 				</div>
 
 				<ul id="menu-item-list-1" class="menu__item-list hide">
@@ -138,14 +138,14 @@
 
 	<footer class="footer">
 		<div>
-			<h3>Ne soyez pas timide, dites bonjour!</h3>
+			<h3 class="footer__section-title">Ne soyez pas timide, dites bonjour!</h3 class="footer__section-title">
 			<a href="tel:5142230382">(514) 223-0382</a>
 			<address>7771 Boulevard Roi-René</address>
 			<div>Mon - Sat 11.00 - 19.00 Sun FERMÉ</div>
 		</div>
 
 		<div class="footer__schedule">
-			<h3>Horaire</h3>
+			<h3 class="footer__section-title">Horaire</h3>
 			<div class="footer__day-schedule">
 				<div>Lundi </div>
 				<div class="footer__dotted-line"></div>
@@ -184,7 +184,7 @@
 		</div>
 
 		<div>
-			<h3>Adresse</h3>
+			<h3 class="footer__section-title">Adresse</h3>
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1973.4647872836993!2d-73.55768619111727!3d45.612640115328205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91e12f50dfa6d%3A0xe84cc91ebd5275e8!2sQuynh%20anh!5e0!3m2!1sen!2sca!4v1578750616221!5m2!1sen!2sca"
 				width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="">
@@ -193,21 +193,16 @@
 	</footer>
 
 	<script>
-		let isShown = false;
 
-		function showHideMenuSection() {
+		function showHideMenuSection(buttonId, listId) {
 			// list starts hidden
-			// change button test to "Hide" when list shown, change to "Show" when list hidden
-			if (isShown == false) {
-				document.getElementById("menu-item-list-1").classList.toggle('hide');
-				document.getElementById("button-1").textContent = "Cacher";
-				isShown = true;
-			} else {
-				document.getElementById("menu-item-list-1").classList.toggle('hide');
-				document.getElementById("button-1").textContent = "Afficher";
-				isShown = false;
-			}
+			let isHidden = document.getElementById(buttonId).classList.contains('hide');
 
+			// change button text to "Hide" when list shown, change to "Show" when list hidden
+			document.getElementById(buttonId).textContent = isHidden ? "Cacher" : "Afficher";
+
+			// toggle hide class when button clicked
+			document.getElementById(listId).classList.toggle('hide');
 		}
 	</script>
 </body>

@@ -87,6 +87,8 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
+  .footer__section-title {
+    margin-bottom: 1rem; }
   .footer__schedule {
     flex-basis: 25rem; }
   .footer__day-schedule {

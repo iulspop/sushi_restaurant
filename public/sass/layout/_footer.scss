@@ -3,6 +3,10 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 
+	&__section-title {
+		margin-bottom: 1rem;
+	}
+
 	&__schedule {
 		flex-basis: 25rem;
 	}
