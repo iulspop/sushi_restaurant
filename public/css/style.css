@@ -39,15 +39,29 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  .about__text {
+  .about__first-group {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0; }
+  .about__second-group {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0; }
+  .about__services {
     max-width: 500px; }
-    .about__text p {
+    .about__services p {
       text-align: justify; }
   .about__story {
-    margin-bottom: 10rem; }
+    max-width: 500px; }
+    .about__story p {
+      text-align: justify; }
   .about__restaurant-img {
-    height: 500px;
-    border-radius: 30px; }
+    height: 400px;
+    border-radius: 5px; }
 
 .banner {
   height: 40rem;
