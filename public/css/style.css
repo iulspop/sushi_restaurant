@@ -26,13 +26,28 @@ a {
 .about {
   margin: 5rem 0;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .banner {
   height: 40rem;
   background-image: url("../img/sushi-plate-2.jpg");
   background-position: center;
   background-size: cover; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .footer__schedule {
+    flex-basis: 250px; }
+  .footer__day-schedule {
+    display: flex;
+    justify-content: flex-start; }
+  .footer__dotted-line {
+    flex-grow: 1;
+    border-bottom: dotted black 2px;
+    transform: translateY(-7px); }
 
 .nav {
   width: 100%;

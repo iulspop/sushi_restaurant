@@ -1,0 +1,20 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	&__schedule {
+		flex-basis: 250px;
+	}
+
+	&__day-schedule {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	&__dotted-line {
+		flex-grow: 1;
+		border-bottom: dotted black 2px;
+		transform: translateY(-7px);
+	}
+}
