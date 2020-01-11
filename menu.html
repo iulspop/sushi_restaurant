@@ -38,7 +38,7 @@
 			<div>
 				<div class="menu__section-title">
 					<h2>Nos Spécialités</h2>
-					<button id="button-1" onclick="showHideMenuSection()">Show</button>
+					<button id="button-1" onclick="showHideMenuSection()">Afficher</button>
 				</div>
 
 				<ul id="menu-item-list-1" class="menu__item-list hide">
@@ -200,11 +200,11 @@
 			// change button test to "Hide" when list shown, change to "Show" when list hidden
 			if (isShown == false) {
 				document.getElementById("menu-item-list-1").classList.toggle('hide');
-				document.getElementById("button-1").textContent = "Hide";
+				document.getElementById("button-1").textContent = "Cacher";
 				isShown = true;
 			} else {
 				document.getElementById("menu-item-list-1").classList.toggle('hide');
-				document.getElementById("button-1").textContent = "Show";
+				document.getElementById("button-1").textContent = "Afficher";
 				isShown = false;
 			}
 

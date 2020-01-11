@@ -61,10 +61,11 @@ a {
       text-align: justify; }
   .about__restaurant-img {
     height: 400px;
-    border-radius: 5px; }
+    border-radius: 3px; }
 
 .banner {
   height: 40rem;
+  border-radius: 3px;
   background-image: url("../img/sushi-plate-2.jpg");
   background-position: center;
   background-size: cover;
@@ -96,7 +97,7 @@ a {
     transform: translateY(-7px); }
 
 .menu {
-  margin: 5rem 0;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: center; }
   .menu__title {
