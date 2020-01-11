@@ -33,98 +33,106 @@
 
 	<main class="menu">
 		<div>
-			<h1 class="menu_title">Menu</h1>
-			<h2>Nos Spécialités</h2>
-			<ul>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Le mexicain (8mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>13.50</div>
-					</div>
-					<div>Crevettes tempura panée avec garniture de saumon, mayo épicée et simili crabe.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Saumon Tempura (8mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>9.50</div>
-					</div>
-					<div>Saumon, tempura panée, sauve sucrée.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Thon Tempura (8mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>9.50</div>
-					</div>
-					<div>Thon blanc, tempura, sauve sucrée.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Dragon Eyes (6mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>9.50</div>
-					</div>
-					<div>Saumon, thon blanc, échalotte, carotte, le tout légèrement pané.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Samurai (5mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>9.50</div>
-					</div>
-					<div>Saumon fumé, simili crabe, radis japonais, omelette, masago, concombre.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Végétarien Frit (5mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>7.95</div>
-					</div>
-					<div>Wakame, concombre, laitue, carotte, sésame.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Végétarien Frit (5mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>7.95</div>
-					</div>
-					<div>Wakame, concombre, laitue, carotte, sésame.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Pizza Sushi (4mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>10.50</div>
-					</div>
-					<div>Galette de riz, saumon fumé, avocat, simili crabe, masago, sauce itamea.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Crevette Tempura (6mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>8.50</div>
-					</div>
-					<div>Crevette panée et légumes servis avec une sauce sucrée.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Spécial itamea (5mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>9.50</div>
-					</div>
-					<div>Crevette, saumon ou thon, tempura, simili crabe, laitue, concombre, mayo épicée.</div>
-				</li>
-				<li class="menu__item">
-					<div class="menu__item-header">
-						<div class="menu__item-name">Hary makis (2mcx)</div>
-						<div class="menu__dotted-line"></div>
-						<div>4.50</div>
-					</div>
-					<div>Rouleaux impériaux au porc avec sauce aux poissons.</div>
-				</li>
-			</ul>
+			<h1 class="menu__title">Menu</h1>
+
+			<div>
+				<div class="menu__section-title">
+					<h2>Nos Spécialités</h2>
+					<button id="button-1" onclick="showHideMenuSection()">Show</button>
+				</div>
+
+				<ul id="menu-item-list-1" class="menu__item-list hide">
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Le mexicain (8mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>13.50</div>
+						</div>
+						<div>Crevettes tempura panée avec garniture de saumon, mayo épicée et simili crabe.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Saumon Tempura (8mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Saumon, tempura panée, sauve sucrée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Thon Tempura (8mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Thon blanc, tempura, sauve sucrée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Dragon Eyes (6mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Saumon, thon blanc, échalotte, carotte, le tout légèrement pané.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Samurai (5mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Saumon fumé, simili crabe, radis japonais, omelette, masago, concombre.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Végétarien Frit (5mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.95</div>
+						</div>
+						<div>Wakame, concombre, laitue, carotte, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Végétarien Frit (5mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.95</div>
+						</div>
+						<div>Wakame, concombre, laitue, carotte, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Pizza Sushi (4mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>10.50</div>
+						</div>
+						<div>Galette de riz, saumon fumé, avocat, simili crabe, masago, sauce itamea.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Crevette Tempura (6mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.50</div>
+						</div>
+						<div>Crevette panée et légumes servis avec une sauce sucrée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Spécial itamea (5mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Crevette, saumon ou thon, tempura, simili crabe, laitue, concombre, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Hary makis (2mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>4.50</div>
+						</div>
+						<div>Rouleaux impériaux au porc avec sauce aux poissons.</div>
+					</li>
+				</ul>
+			</div>
+
 		</div>
 	</main>
 
@@ -182,8 +190,26 @@
 				width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="">
 			</iframe>
 		</div>
-
 	</footer>
+
+	<script>
+		let isShown = false;
+
+		function showHideMenuSection() {
+			// list starts hidden
+			// change button test to "Hide" when list shown, change to "Show" when list hidden
+			if (isShown == false) {
+				document.getElementById("menu-item-list-1").classList.toggle('hide');
+				document.getElementById("button-1").textContent = "Hide";
+				isShown = true;
+			} else {
+				document.getElementById("menu-item-list-1").classList.toggle('hide');
+				document.getElementById("button-1").textContent = "Show";
+				isShown = false;
+			}
+
+		}
+	</script>
 </body>
 
 </html>
