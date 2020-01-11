@@ -8,13 +8,19 @@
 
 	&__heading {
 		position: absolute;
-		top: 20%;
-		left: 10%;
+		top: 30%;
+		left: 5%;
+	}
+
+	&__heading-2 {
+		position: absolute;
+		top: 40%;
+		left: 5%;
 	}
 
 	&__button {
 		position: absolute;
-		top: 70%;
-		left: 10%;
+		top: 60%;
+		left: 5%;
 	}
 }

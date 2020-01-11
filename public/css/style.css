@@ -26,11 +26,28 @@ a {
   text-decoration: none;
   color: #000; }
 
+.button {
+  width: 20rem;
+  height: 5rem;
+  background-color: #FFF;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 0rem; }
+
 .about {
   margin: 5rem 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
+  .about__text {
+    max-width: 500px; }
+    .about__text p {
+      text-align: justify; }
+  .about__story {
+    margin-bottom: 10rem; }
+  .about__restaurant-img {
+    height: 500px;
+    border-radius: 30px; }
 
 .banner {
   height: 40rem;
@@ -40,12 +57,16 @@ a {
   position: relative; }
   .banner__heading {
     position: absolute;
-    top: 20%;
-    left: 10%; }
+    top: 30%;
+    left: 5%; }
+  .banner__heading-2 {
+    position: absolute;
+    top: 40%;
+    left: 5%; }
   .banner__button {
     position: absolute;
-    top: 70%;
-    left: 10%; }
+    top: 60%;
+    left: 5%; }
 
 .footer {
   display: flex;
