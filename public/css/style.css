@@ -33,7 +33,16 @@ a {
   height: 40rem;
   background-image: url("../img/sushi-plate-2.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
+  .banner__heading {
+    position: absolute;
+    top: 20%;
+    left: 10%; }
+  .banner__button {
+    position: absolute;
+    top: 70%;
+    left: 10%; }
 
 .footer {
   display: flex;
