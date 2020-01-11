@@ -23,6 +23,11 @@ a {
   text-decoration: none;
   color: #000; }
 
+.about {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between; }
+
 .banner {
   height: 40rem;
   background-image: url("../img/sushi-plate-2.jpg");
