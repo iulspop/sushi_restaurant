@@ -41,7 +41,7 @@
 					<button id="button-1" onclick="showHideMenuSection('button-1', 'menu-item-list-1')">Afficher</button>
 				</div>
 
-				<ul id="menu-item-list-1" class="menu__item-list hide">
+				<ul id="menu-item-list-1" class="menu__item-list u-hide">
 					<li class="menu__item">
 						<div class="menu__item-header">
 							<div class="menu__item-name">Le mexicain (8mcx)</div>
@@ -133,8 +133,26 @@
 				</ul>
 			</div>
 
-		</div>
+			<div>
+				<div class="menu__section-title">
+					<h2>Makis (rouleaux moyens)</h2>
+					<button id="button-2" onclick="showHideMenuSection('button-2', 'menu-item-list-2')">Afficher</button>
+				</div>
+
+				<ul id="menu-item-list-2" class="menu__item-list u-hide">
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Ebi Maki (8mcx)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.95</div>
+						</div>
+						<div>Crevettes, masago, tempura, avocat, concombre, sésame, mayo épicée</div>
+					</li>
+				</ul>
+			</div>
 	</main>
+
+	<hr class="u-margin-bottom-small">
 
 	<footer class="footer">
 		<div>
@@ -193,16 +211,15 @@
 	</footer>
 
 	<script>
-
 		function showHideMenuSection(buttonId, listId) {
 			// list starts hidden
-			let isHidden = document.getElementById(buttonId).classList.contains('hide');
+			let isHidden = document.getElementById(listId).classList.contains('u-hide');
 
 			// change button text to "Hide" when list shown, change to "Show" when list hidden
 			document.getElementById(buttonId).textContent = isHidden ? "Cacher" : "Afficher";
 
 			// toggle hide class when button clicked
-			document.getElementById(listId).classList.toggle('hide');
+			document.getElementById(listId).classList.toggle('u-hide');
 		}
 	</script>
 </body>

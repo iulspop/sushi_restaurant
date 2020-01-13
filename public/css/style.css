@@ -1,5 +1,8 @@
-.hide {
+.u-hide {
   display: none !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 3rem; }
 
 *,
 *::after,
@@ -35,7 +38,7 @@ a {
   padding: 1rem 0rem; }
 
 .about {
-  margin: 5rem 0;
+  padding: 5rem 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
