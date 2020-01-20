@@ -3,15 +3,31 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 
+	@media only screen and (max-width: 1250px) {
+		display: block;
+	}
+
+	&__section {
+		margin-bottom: 4rem;
+
+		&--schedule {
+			flex-basis: 25rem;
+			@media only screen and (max-width: 1250px) {
+				width: 60%;
+			}
+
+			@media only screen and (max-width: 500px) {
+				width: 100%;
+			}
+		}
+	}
+
 	&__section-title {
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
-	&__schedule {
-		flex-basis: 25rem;
-	}
 
-	&__day-schedule {
+	&__day {
 		display: flex;
 	}
 
