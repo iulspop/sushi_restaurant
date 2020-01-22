@@ -11,6 +11,10 @@
 		justify-content: space-around;
 		align-items: center;
 		margin: 5rem 0;
+
+		@media only screen and (max-width: 78.125em) {
+			display: block;
+		}
 	}
 
 	&__second-group {
@@ -20,6 +24,10 @@
 		justify-content: space-around;
 		align-items: center;
 		margin: 5rem 0;
+
+		@media only screen and (max-width: 78.125em) {
+			display: block;
+		}
 	}
 
 	&__services {

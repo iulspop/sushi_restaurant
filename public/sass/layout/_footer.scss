@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 
-	@media only screen and (max-width: 1250px) {
+	@media only screen and (max-width: 78.125em) {
 		display: block;
 	}
 
@@ -12,11 +12,11 @@
 
 		&--schedule {
 			flex-basis: 25rem;
-			@media only screen and (max-width: 1250px) {
+			@media only screen and (max-width: 78.125em) {
 				width: 60%;
 			}
 
-			@media only screen and (max-width: 500px) {
+			@media only screen and (max-width: 31.25em) {
 				width: 100%;
 			}
 		}

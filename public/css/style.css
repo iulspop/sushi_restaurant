@@ -13,6 +13,18 @@
 
 html {
   font-size: 62.5%; }
+  @media only screen and (min-width: 1800px) {
+    html {
+      font-size: 70%; } }
+  @media only screen and (max-width: 1200px) {
+    html {
+      font-size: 62.5%; } }
+  @media only screen and (max-width: 900px) {
+    html {
+      font-size: 62.5%; } }
+  @media only screen and (max-width: 400px) {
+    html {
+      font-size: 62.5%; } }
 
 body {
   box-sizing: border-box;
@@ -24,18 +36,6 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #000; }
-  @media only screen and (min-width: 112.5em) {
-    body {
-      font-size: 3rem; } }
-  @media only screen and (max-width: 75em) {
-    body {
-      font-size: 1.9rem; } }
-  @media only screen and (max-width: 56.25em) {
-    body {
-      font-size: 1.6rem; } }
-  @media only screen and (max-width: 31.25em) {
-    body {
-      font-size: 1.6rem; } }
 
 a {
   text-decoration: none;
@@ -60,6 +60,9 @@ a {
     justify-content: space-around;
     align-items: center;
     margin: 5rem 0; }
+    @media only screen and (max-width: 78.125em) {
+      .about__first-group {
+        display: block; } }
   .about__second-group {
     flex-basis: 100%;
     display: flex;
@@ -67,6 +70,9 @@ a {
     justify-content: space-around;
     align-items: center;
     margin: 5rem 0; }
+    @media only screen and (max-width: 78.125em) {
+      .about__second-group {
+        display: block; } }
   .about__services {
     max-width: 500px; }
     .about__services p {
@@ -103,17 +109,17 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  @media only screen and (max-width: 1250px) {
+  @media only screen and (max-width: 78.125em) {
     .footer {
       display: block; } }
   .footer__section {
     margin-bottom: 4rem; }
     .footer__section--schedule {
       flex-basis: 25rem; }
-      @media only screen and (max-width: 1250px) {
+      @media only screen and (max-width: 78.125em) {
         .footer__section--schedule {
           width: 60%; } }
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 31.25em) {
         .footer__section--schedule {
           width: 100%; } }
   .footer__section-title {

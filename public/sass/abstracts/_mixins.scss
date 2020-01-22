@@ -13,6 +13,7 @@
 
 // ORDER: Base + typography + general layout + grid > page layout > components
 
+// 1em == 16px, unless browser default changed by user
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone {
 		// In SASS can write @media under a block directly without adding the class selector like in CSS.

@@ -4,22 +4,6 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: $color-black;
-
-  @include respond(big-desktop) {
-	  font-size: 3rem;
-  }
-
-  @include respond(tab-land) {
-	  font-size: 1.9rem;
-  }
-
-  @include respond(tab-port) {
-	  font-size: 1.6rem;
-  }
-
-  @include respond(phone) {
-	  font-size: 1.6rem;
-  }
 }
 
 a {
