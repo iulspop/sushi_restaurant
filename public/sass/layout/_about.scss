@@ -1,9 +1,14 @@
 .about {
-	padding: 5rem 0;
+	padding: 2rem 0;
 
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+
+	@media only screen and (max-width: 1250px) {
+		flex-direction: column;
+		align-items: center;
+	}
 
 	&__first-group {
 		flex-basis: 100%;
@@ -14,6 +19,7 @@
 
 		@media only screen and (max-width: 1250px) {
 			display: block;
+			margin: 2rem 0;
 		}
 	}
 
@@ -27,27 +33,27 @@
 
 		@media only screen and (max-width: 1250px) {
 			display: block;
+			margin: 2rem 0;
 		}
 	}
 
-	&__services {
+	&__services, &__story {
 		max-width: 500px;
 
 		& p {
 			text-align: justify;
+			margin-bottom: 2rem;
+
+			@media only screen and (max-width: 400px) {
+				text-align: left;
+			}
 		}
 	}
 	
-	&__story {
-		max-width: 500px;
-
-		& p {
-			text-align: justify;
-		}
-	}
-
 	&__restaurant-img {
-		height: 400px;
+		width: 100%;
+		max-width: 500px;
+		height: auto;
 		border-radius: 3px;
 	}
 }

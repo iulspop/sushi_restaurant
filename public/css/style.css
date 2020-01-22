@@ -24,7 +24,7 @@ html {
       font-size: 62.5%; } }
   @media only screen and (max-width: 400px) {
     html {
-      font-size: 62.5%; } }
+      font-size: 56.25%; } }
 
 body {
   box-sizing: border-box;
@@ -50,19 +50,24 @@ a {
   padding: 1rem 0rem; }
 
 .about {
-  padding: 5rem 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
+  @media only screen and (max-width: 1250px) {
+    .about {
+      flex-direction: column;
+      align-items: center; } }
   .about__first-group {
     flex-basis: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 5rem 0; }
-    @media only screen and (max-width: 78.125em) {
+    @media only screen and (max-width: 1250px) {
       .about__first-group {
-        display: block; } }
+        display: block;
+        margin: 2rem 0; } }
   .about__second-group {
     flex-basis: 100%;
     display: flex;
@@ -70,19 +75,22 @@ a {
     justify-content: space-around;
     align-items: center;
     margin: 5rem 0; }
-    @media only screen and (max-width: 78.125em) {
+    @media only screen and (max-width: 1250px) {
       .about__second-group {
-        display: block; } }
-  .about__services {
+        display: block;
+        margin: 2rem 0; } }
+  .about__services, .about__story {
     max-width: 500px; }
-    .about__services p {
-      text-align: justify; }
-  .about__story {
-    max-width: 500px; }
-    .about__story p {
-      text-align: justify; }
+    .about__services p, .about__story p {
+      text-align: justify;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 400px) {
+        .about__services p, .about__story p {
+          text-align: left; } }
   .about__restaurant-img {
-    height: 400px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     border-radius: 3px; }
 
 .banner {
@@ -109,17 +117,17 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  @media only screen and (max-width: 78.125em) {
+  @media only screen and (max-width: 1250px) {
     .footer {
       display: block; } }
   .footer__section {
     margin-bottom: 4rem; }
     .footer__section--schedule {
       flex-basis: 25rem; }
-      @media only screen and (max-width: 78.125em) {
+      @media only screen and (max-width: 1250px) {
         .footer__section--schedule {
           width: 60%; } }
-      @media only screen and (max-width: 31.25em) {
+      @media only screen and (max-width: 500px) {
         .footer__section--schedule {
           width: 100%; } }
   .footer__section-title {
