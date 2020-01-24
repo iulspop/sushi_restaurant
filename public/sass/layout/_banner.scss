@@ -11,17 +11,20 @@
 		position: absolute;
 		top: 30%;
 		left: 5%;
+		text-shadow: 1px 0 10px $shadow;
 	}
 
 	&__heading-2 {
 		position: absolute;
 		top: 40%;
 		left: 5%;
+		text-shadow: 1px 0 10px $shadow;
 	}
 
 	&__button {
 		position: absolute;
 		top: 60%;
 		left: 5%;
+		text-shadow: 1px 0 10px $shadow;
 	}
 }
