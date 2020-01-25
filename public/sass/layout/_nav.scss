@@ -1,35 +1,29 @@
 .nav {
-	width: 100%;
+	height: 135px;
 	background-color: $color-transparent;
-
 	display: flex;
-	justify-content: center;
-	
-	&__fixed-width-container { //used to center nav links and keep them close obn 4k screens
-		width: 100%;
-		max-width: 1588px;
-		height: 135px;
-
-		display: flex;
-		justify-content: space-between;	
-	}
-
-	&__left {
-		align-self: center;
-	}
+	justify-content: space-between;
 
 	&__middle {
-		align-self: center;
-
 		flex-basis: 20rem;
 		display: flex;
 		justify-content: space-between;
 	}
 
 	&__right {
+		position: relative;
+	}
+	
+	&__left {
+		align-self: center;
+	}
+
+	&__middle, &__right {
 		align-self: center;
 
-		position: relative;
+		@media only screen and (max-width: 1000px){
+			display: none;
+		}
 	}
 
 	&__logo {

@@ -3,5 +3,11 @@
 }
 
 .u-margin-bottom-small {
-	margin-bottom: 3rem;
+	margin-bottom: 5rem !important;
+}
+
+.u-center-on-large-screen {
+	max-width: 1400px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }

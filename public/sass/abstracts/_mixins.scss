@@ -1,4 +1,9 @@
-// MEDIA QUERY MANAGER
+@mixin reset-default-buttons-style {
+	
+}
+
+
+// MEDIA QUERY MANAGER (only used in _typography.scss)
 // 0 - 500px;      Phone
 // 500 - 900px;    Tablet portrait
 // 900 - 1200px;   Tablet landscape
