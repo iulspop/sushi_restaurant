@@ -241,6 +241,12 @@ a {
     flex-grow: 1;
     border-bottom: dotted black 2px;
     transform: translateY(-7px); }
+  .menu__item-image {
+    margin-top: 1rem;
+    height: 21rem; }
+    @media only screen and (max-width: 600px) {
+      .menu__item-image {
+        height: 18rem; } }
 
 .nav {
   height: 135px;
