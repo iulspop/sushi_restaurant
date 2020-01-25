@@ -196,15 +196,19 @@ a {
     transform: translateY(-7px); }
 
 .menu {
-  margin-bottom: 4rem;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 4rem; }
+  @media only screen and (max-width: 1000px) {
+    .menu {
+      margin-bottom: 2rem; } }
   .menu__container {
-    flex-basis: 40rem; }
+    flex-basis: 50rem; }
   .menu__title {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 1rem; }
   .menu__section {
-    margin-bottom: 3rem; }
+    margin-bottom: 4rem; }
   .menu__section-header {
     display: flex;
     justify-content: space-between;
@@ -220,6 +224,8 @@ a {
     padding: .5rem 1rem; }
     .menu__button:hover {
       cursor: pointer; }
+  .menu__item-list {
+    margin-left: 1.8rem; }
   .menu__item {
     margin-bottom: 1.6rem; }
   .menu__item-header {
@@ -277,9 +283,5 @@ a {
     left: -16px; }
 
 .home-page {
-  padding-right: 8.3%;
-  padding-left: 8.3%; }
-
-.menu-page {
   padding-right: 8.3%;
   padding-left: 8.3%; }

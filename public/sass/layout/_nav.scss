@@ -3,7 +3,7 @@
 	background-color: $color-transparent;
 	display: flex;
 	justify-content: space-between;
-
+	
 	@media only screen and (max-width: 1000px){
 		height: 75px;
 		border-bottom: solid 1px $color-grey;
