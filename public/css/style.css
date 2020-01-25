@@ -184,14 +184,14 @@ a {
     transform: translateY(-7px); }
 
 .menu {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   display: flex;
   justify-content: center; }
   .menu__title {
     text-align: center; }
   .menu__section {
-    margin-bottom: 2rem; }
-  .menu__section-title {
+    margin-bottom: 3rem; }
+  .menu__section-header {
     display: flex;
     justify-content: space-between;
     max-width: 63rem;
@@ -201,7 +201,12 @@ a {
     border: none;
     font: inherit;
     color: inherit;
-    background: none; }
+    background: none;
+    border: solid #E6DBD0 1px;
+    border-radius: 3px;
+    padding: .5rem 1rem; }
+    .menu__button:hover {
+      cursor: pointer; }
   .menu__item {
     margin-bottom: 1.6rem; }
   .menu__item-header {

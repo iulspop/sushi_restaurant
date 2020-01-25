@@ -1,5 +1,5 @@
 .menu {
-	margin-bottom: 5rem;
+	margin-bottom: 4rem;
 	display: flex;
 	justify-content: center;
 
@@ -8,18 +8,28 @@
 	}
 
 	&__section {
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
 
-	&__section-title {
+	&__section-header {
 		display: flex;
 		justify-content: space-between;
 		max-width: 63rem;
 		margin-bottom: 1rem;
 	}
 
+	&__section-title {
+	}
+
 	&__button {
 		@include button-reset;
+		border: solid $color-grey 1px;
+		border-radius: 3px;
+		padding: .5rem 1rem;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 
 	&__item {
