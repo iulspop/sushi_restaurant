@@ -11,31 +11,28 @@
   padding: 0;
   box-sizing: inherit; }
 
-html {
-  font-size: 62.5%; }
-  @media only screen and (min-width: 1800px) {
-    html {
-      font-size: 70%; } }
-  @media only screen and (max-width: 1200px) {
-    html {
-      font-size: 62.5%; } }
-  @media only screen and (max-width: 900px) {
-    html {
-      font-size: 62.5%; } }
-  @media only screen and (max-width: 400px) {
-    html {
-      font-size: 56.25%; } }
-
 body {
   box-sizing: border-box;
   color: #878787; }
 
+html {
+  font-size: 62.25%; }
+
 body {
   font-family: Quicksand, sans-serif;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 400;
   line-height: 1.7;
   color: #000; }
+  @media only screen and (max-width: 75em) {
+    body {
+      font-size: 2rem; } }
+  @media only screen and (max-width: 56.25em) {
+    body {
+      font-size: 1.8rem; } }
+  @media only screen and (max-width: 31.25em) {
+    body {
+      font-size: 1.6rem; } }
 
 a {
   text-decoration: none;
@@ -44,10 +41,11 @@ a {
 .link-button {
   width: 20rem;
   height: 5rem;
-  background-color: #FFF;
-  border-radius: 10px;
+  padding: 1rem 0 0;
+  border-radius: 3px;
+  font-size: 1.6rem;
   text-align: center;
-  padding: 1rem 0rem; }
+  background-color: #FFF; }
 
 .about {
   margin: 5rem 0;
@@ -104,21 +102,43 @@ a {
   background-position: center;
   background-size: cover;
   position: relative; }
+  .banner__heading, .banner__heading-2, .banner__button {
+    position: absolute;
+    text-shadow: -2px 1px white; }
   .banner__heading {
-    position: absolute;
     top: 30%;
-    left: 5%;
-    text-shadow: 1px 0 10px #999795; }
+    left: 5%; }
+    @media only screen and (max-width: 985px) {
+      .banner__heading {
+        font-size: 2.4rem;
+        top: 35%; } }
+    @media only screen and (max-width: 400px) {
+      .banner__heading {
+        font-size: 1.9rem;
+        left: 2%; } }
   .banner__heading-2 {
-    position: absolute;
     top: 40%;
-    left: 5%;
-    text-shadow: 1px 0 10px #999795; }
+    left: 5%; }
+    @media only screen and (max-width: 985px) {
+      .banner__heading-2 {
+        font-size: 2.4rem;
+        top: 45%; } }
+    @media only screen and (max-width: 400px) {
+      .banner__heading-2 {
+        font-size: 1.9rem;
+        left: 2%; } }
   .banner__button {
-    position: absolute;
     top: 60%;
-    left: 5%;
-    text-shadow: 1px 0 10px #999795; }
+    left: 5%; }
+    @media only screen and (max-width: 985px) {
+      .banner__button {
+        top: 65%; } }
+    @media only screen and (max-width: 795px) {
+      .banner__button {
+        top: 70%; } }
+    @media only screen and (max-width: 400px) {
+      .banner__button {
+        left: 10%; } }
 
 .footer {
   display: flex;

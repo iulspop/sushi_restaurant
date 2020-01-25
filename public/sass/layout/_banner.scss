@@ -7,24 +7,55 @@
 
 	position: relative;
 
-	&__heading {
+	&__heading, &__heading-2, &__button {
 		position: absolute;
+		text-shadow: -2px 1px $shadow;
+	}
+
+	&__heading {
 		top: 30%;
 		left: 5%;
-		text-shadow: 1px 0 10px $shadow;
+
+		@media only screen and (max-width: 985px) {
+			font-size: 2.4rem;
+			top: 35%;
+		}
+		
+		@media only screen and (max-width: 400px) {
+			font-size: 1.9rem;
+			left: 2%;
+		}
 	}
 
 	&__heading-2 {
-		position: absolute;
 		top: 40%;
 		left: 5%;
-		text-shadow: 1px 0 10px $shadow;
+
+		@media only screen and (max-width: 985px) {
+			font-size: 2.4rem;
+			top: 45%;
+		}
+
+		@media only screen and (max-width: 400px) {
+			font-size: 1.9rem;
+			left: 2%;
+		}
 	}
 
 	&__button {
-		position: absolute;
 		top: 60%;
 		left: 5%;
-		text-shadow: 1px 0 10px $shadow;
+
+		@media only screen and (max-width: 985px) {
+			top: 65%;
+		}
+
+		@media only screen and (max-width: 795px) {
+			top: 70%;
+		}
+
+		@media only screen and (max-width: 400px) {
+			left: 10%;
+		}
 	}
 }
