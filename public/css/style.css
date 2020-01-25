@@ -216,18 +216,20 @@ a {
       height: 75px;
       border-bottom: solid 1px #E6DBD0;
       margin-bottom: 25px; } }
-  .nav__left {
+  .nav__left, .nav__middle, .nav__right {
     align-self: center; }
   .nav__middle {
     flex-basis: 20rem;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 600px) {
+      .nav__middle {
+        justify-content: end;
+        flex-basis: 0; } }
   .nav__right {
     position: relative; }
-  .nav__middle, .nav__right {
-    align-self: center; }
     @media only screen and (max-width: 1000px) {
-      .nav__middle, .nav__right {
+      .nav__right {
         display: none; } }
   .nav__logo {
     font-size: 2.3rem; }
@@ -236,6 +238,9 @@ a {
         font-size: 2rem; } }
   .nav__link {
     font-weight: 400; }
+    @media only screen and (max-width: 600px) {
+      .nav__link--hide-on-small-screen {
+        display: none; } }
   .nav__number {
     font-size: 2.3rem; }
   .nav__number-cta {
