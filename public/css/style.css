@@ -189,10 +189,12 @@ a {
   justify-content: center; }
   .menu__title {
     text-align: center; }
+  .menu__section {
+    margin-bottom: 2rem; }
   .menu__section-title {
     display: flex;
     justify-content: space-between;
-    width: 63rem;
+    max-width: 63rem;
     margin-bottom: 1rem; }
   .menu__item {
     margin-bottom: 1.6rem; }

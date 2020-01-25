@@ -7,10 +7,14 @@
 		text-align: center;
 	}
 
+	&__section {
+		margin-bottom: 2rem;
+	}
+
 	&__section-title {
 		display: flex;
 		justify-content: space-between;
-		width: 63rem;
+		max-width: 63rem;
 		margin-bottom: 1rem;
 	}
 

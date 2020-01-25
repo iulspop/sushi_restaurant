@@ -33,7 +33,7 @@
 		<div>
 			<h1 class="menu__title">Menu</h1>
 
-			<div>
+			<div class="menu__section">
 				<div class="menu__section-title">
 					<h2>Nos Spécialités</h2>
 					<button id="button-1" onclick="showHideMenuSection('button-1', 'menu-item-list-1')">Afficher</button>
@@ -136,7 +136,7 @@
 
 			<!-- NEW SECTION -->
 
-			<div>
+			<div class="menu__section">
 				<div class="menu__section-title">
 					<!-- SECTION TITLE -->
 					<h2>Sushi Combo (Choix du Chef)</h2>
@@ -234,7 +234,7 @@
 
 			<!-- NEW SECTION -->
 
-			<div>
+			<div class="menu__section">
 				<div class="menu__section-title">
 					<!-- SECTION TITLE -->
 					<h2>Maki de Printemps</h2>
@@ -288,7 +288,7 @@
 
 			<!-- NEW SECTION -->
 
-			<div>
+			<div class="menu__section">
 				<div class="menu__section-title">
 					<!-- SECTION TITLE -->
 					<h2>Tartare Makis</h2>
@@ -330,7 +330,7 @@
 
 			<!-- NEW SECTION -->
 
-			<div>
+			<div class="menu__section">
 				<div class="menu__section-title">
 					<!-- SECTION TITLE -->
 					<h2>Makis (Moyens Rouleaux)</h2>
@@ -420,266 +420,267 @@
 						<div>Pétoncle frit, laitue, tempura, mayo épicée.</div>
 					</li>
 				</ul>
+			</div>
 
-				<!-- NEW SECTION -->
+			<!-- NEW SECTION -->
 
-				<div>
-					<div class="menu__section-title">
-						<!-- SECTION TITLE -->
-						<h2>Futomakis (Grands Rouleaux)</h2>
-						<button id="button-6" onclick="showHideMenuSection('button-6', 'menu-item-list-6')">Afficher</button>
-					</div>
-
-					<ul id="menu-item-list-6" class="menu__item-list u-hide">
-						<!-- MENU ITEMS -->
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">California (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>7.50</div>
-							</div>
-							<div>Simili crabe, tempura, masago, omelette, concombre, avocat, mayo épicé.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Végétarien (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>6.95</div>
-							</div>
-							<div>Concombre, avocat, carotte, poivron rouge, tempura, laitue, sésame, mayo épicé.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Boston (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>7.95</div>
-							</div>
-							<div>Crevettes, masago, simili crabe, concombre, laitue, mayo épicé.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Kamikaze (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>9.50</div>
-							</div>
-							<div>Thon rouge, masago, simili crabe, tempura, avocat, concombre, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Kamikaze au crevette (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.50</div>
-							</div>
-							<div>Crevette, masago, simili crabe, tempura, avocat, concombre, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Imperial (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>7.95</div>
-							</div>
-							<div>Crevette tempura, tempura, avocat, concombre, mayo épicée, masago.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Dynamite (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>7.95</div>
-							</div>
-							<div>Thon blanc, avocat, concombre, tempura, masago, sésame, mayo épicée, sauce épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">New York (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>9.95</div>
-							</div>
-							<div>Thon, saumon, masago, omelette, avocat, concombre, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Rainbow Rouleau (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>10.95</div>
-							</div>
-							<div>Saumon épicé, avocat, tempura, masago, avocat, thon rouge, saumon.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Una-Kyu (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>9.50</div>
-							</div>
-							<div>Anguille grillé, wakame, bâtonet de crabe, concombre, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">PFK Roll (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.50</div>
-							</div>
-							<div>Poulet grillé, tempura, simili crabe, concombre, avocat, sauce teriyaki.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Québecoise (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.95</div>
-							</div>
-							<div>Saumon fumé, fromage à la crème, masago, concombre, avocat, carotte.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Spicy Maguro (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>9.95</div>
-							</div>
-							<div>Thon, tempura, masago, échalotte, avocat, sauce épicée, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Spicy Sake (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.95</div>
-							</div>
-							<div>Saumon, tempura, concombre, sauce épicée, mayo épicée, concombre.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Spicy Hotate (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>9.50</div>
-							</div>
-							<div>Pétoncles, tempura, masago, échalotte, avocat, sauce épicée, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Saumon Grillé (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.50</div>
-							</div>
-							<div>Saumon grillé, avocat, omelette, laitue, carotte, sésame, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Le Rock (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>9.50</div>
-							</div>
-							<div>Pétoncles frit, masago, tempura, avocat, concombre, simili crabe, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Alaska (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>11.50</div>
-							</div>
-							<div>Crabe des neiges, crevette tempura, thon rouge, concombre, masago, avocat, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Crabe Des Neiges (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.95</div>
-							</div>
-							<div>Crabe des neiges, avocat, échalotte, masago, tempura, mayo épicée.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Crevette épicée (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.50</div>
-							</div>
-							<div>Crevette, simili crabe, avocat, échalotte, tobiko, tempura, laitue, mayo épicé, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Anjou Maki (5 mcx ou 1 cornet)</div>
-								<div class="menu__dotted-line"></div>
-								<div>8.50</div>
-							</div>
-							<div>Crevette, saumon, simili crabe, masago, laitue, avocat, tempura, mayo épicée.</div>
-						</li>
-					</ul>
+			<div class="menu__section">
+				<div class="menu__section-title">
+					<!-- SECTION TITLE -->
+					<h2>Futomakis (Grands Rouleaux)</h2>
+					<button id="button-6" onclick="showHideMenuSection('button-6', 'menu-item-list-6')">Afficher</button>
 				</div>
 
-				<!-- NEW SECTION -->
+				<ul id="menu-item-list-6" class="menu__item-list u-hide">
+					<!-- MENU ITEMS -->
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">California (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.50</div>
+						</div>
+						<div>Simili crabe, tempura, masago, omelette, concombre, avocat, mayo épicé.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Végétarien (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>6.95</div>
+						</div>
+						<div>Concombre, avocat, carotte, poivron rouge, tempura, laitue, sésame, mayo épicé.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Boston (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.95</div>
+						</div>
+						<div>Crevettes, masago, simili crabe, concombre, laitue, mayo épicé.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Kamikaze (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Thon rouge, masago, simili crabe, tempura, avocat, concombre, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Kamikaze au crevette (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.50</div>
+						</div>
+						<div>Crevette, masago, simili crabe, tempura, avocat, concombre, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Imperial (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.95</div>
+						</div>
+						<div>Crevette tempura, tempura, avocat, concombre, mayo épicée, masago.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Dynamite (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>7.95</div>
+						</div>
+						<div>Thon blanc, avocat, concombre, tempura, masago, sésame, mayo épicée, sauce épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">New York (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.95</div>
+						</div>
+						<div>Thon, saumon, masago, omelette, avocat, concombre, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Rainbow Rouleau (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>10.95</div>
+						</div>
+						<div>Saumon épicé, avocat, tempura, masago, avocat, thon rouge, saumon.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Una-Kyu (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Anguille grillé, wakame, bâtonet de crabe, concombre, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">PFK Roll (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.50</div>
+						</div>
+						<div>Poulet grillé, tempura, simili crabe, concombre, avocat, sauce teriyaki.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Québecoise (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.95</div>
+						</div>
+						<div>Saumon fumé, fromage à la crème, masago, concombre, avocat, carotte.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Spicy Maguro (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.95</div>
+						</div>
+						<div>Thon, tempura, masago, échalotte, avocat, sauce épicée, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Spicy Sake (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.95</div>
+						</div>
+						<div>Saumon, tempura, concombre, sauce épicée, mayo épicée, concombre.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Spicy Hotate (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Pétoncles, tempura, masago, échalotte, avocat, sauce épicée, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Saumon Grillé (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.50</div>
+						</div>
+						<div>Saumon grillé, avocat, omelette, laitue, carotte, sésame, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Le Rock (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>9.50</div>
+						</div>
+						<div>Pétoncles frit, masago, tempura, avocat, concombre, simili crabe, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Alaska (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>11.50</div>
+						</div>
+						<div>Crabe des neiges, crevette tempura, thon rouge, concombre, masago, avocat, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Crabe Des Neiges (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.95</div>
+						</div>
+						<div>Crabe des neiges, avocat, échalotte, masago, tempura, mayo épicée.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Crevette épicée (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.50</div>
+						</div>
+						<div>Crevette, simili crabe, avocat, échalotte, tobiko, tempura, laitue, mayo épicé, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Anjou Maki (5 mcx ou 1 cornet)</div>
+							<div class="menu__dotted-line"></div>
+							<div>8.50</div>
+						</div>
+						<div>Crevette, saumon, simili crabe, masago, laitue, avocat, tempura, mayo épicée.</div>
+					</li>
+				</ul>
+			</div>
 
-				<div>
-					<div class="menu__section-title">
-						<!-- SECTION TITLE -->
-						<h2>Hosomakis (Petits Rouleaux)</h2>
-						<button id="button-7" onclick="showHideMenuSection('button-7', 'menu-item-list-7')">Afficher</button>
-					</div>
+			<!-- NEW SECTION -->
 
-					<ul id="menu-item-list-7" class="menu__item-list u-hide">
-						<!-- MENU ITEMS -->
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Kappa Maki</div>
-								<div class="menu__dotted-line"></div>
-								<div>3.95</div>
-							</div>
-							<div>Concombre, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Avocado Maki</div>
-								<div class="menu__dotted-line"></div>
-								<div>4.50</div>
-							</div>
-							<div>Avocat, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Tamago Maki</div>
-								<div class="menu__dotted-line"></div>
-								<div>4.50</div>
-							</div>
-							<div>Omelette japonaise, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Kanikama</div>
-								<div class="menu__dotted-line"></div>
-								<div>4.50</div>
-							</div>
-							<div>Simili crabe, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Sake</div>
-								<div class="menu__dotted-line"></div>
-								<div>5.50</div>
-							</div>
-							<div>Saumon, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Tekka</div>
-								<div class="menu__dotted-line"></div>
-								<div>5.95</div>
-							</div>
-							<div>Thon, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Skae épicé</div>
-								<div class="menu__dotted-line"></div>
-								<div>5.50</div>
-							</div>
-							<div>Saumon, échalotte, sésame, sauce épicéee, mayo épicée, sésame.</div>
-						</li>
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<div class="menu__item-name">Tekka épicé</div>
-								<div class="menu__dotted-line"></div>
-								<div>5.95</div>
-							</div>
-							<div>Thon, sésame, sauce épicée, mayo épicée, sésame.</div>
-						</li>
-					</ul>
+			<div class="menu__section">
+				<div class="menu__section-title">
+					<!-- SECTION TITLE -->
+					<h2>Hosomakis (Petits Rouleaux)</h2>
+					<button id="button-7" onclick="showHideMenuSection('button-7', 'menu-item-list-7')">Afficher</button>
 				</div>
+
+				<ul id="menu-item-list-7" class="menu__item-list u-hide">
+					<!-- MENU ITEMS -->
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Kappa Maki</div>
+							<div class="menu__dotted-line"></div>
+							<div>3.95</div>
+						</div>
+						<div>Concombre, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Avocado Maki</div>
+							<div class="menu__dotted-line"></div>
+							<div>4.50</div>
+						</div>
+						<div>Avocat, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Tamago Maki</div>
+							<div class="menu__dotted-line"></div>
+							<div>4.50</div>
+						</div>
+						<div>Omelette japonaise, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Kanikama</div>
+							<div class="menu__dotted-line"></div>
+							<div>4.50</div>
+						</div>
+						<div>Simili crabe, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Sake</div>
+							<div class="menu__dotted-line"></div>
+							<div>5.50</div>
+						</div>
+						<div>Saumon, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Tekka</div>
+							<div class="menu__dotted-line"></div>
+							<div>5.95</div>
+						</div>
+						<div>Thon, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Skae épicé</div>
+							<div class="menu__dotted-line"></div>
+							<div>5.50</div>
+						</div>
+						<div>Saumon, échalotte, sésame, sauce épicéee, mayo épicée, sésame.</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<div class="menu__item-name">Tekka épicé</div>
+							<div class="menu__dotted-line"></div>
+							<div>5.95</div>
+						</div>
+						<div>Thon, sésame, sauce épicée, mayo épicée, sésame.</div>
+					</li>
+				</ul>
+			</div>
 	</main>
 
 	<hr class="u-margin-bottom-small u-center-on-large-screen">
