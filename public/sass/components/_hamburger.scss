@@ -1,6 +1,11 @@
 .hamburger {
+	@include button-reset;
 
 	@media only screen and (min-width: 1000px) {
 		display: none;
+	}
+
+	&__icon {
+		margin: 0 2rem;
 	}
 }

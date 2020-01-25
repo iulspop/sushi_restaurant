@@ -1,5 +1,9 @@
-@mixin reset-default-buttons-style {
-	
+@mixin button-reset {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background: none
 }
 
 
