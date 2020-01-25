@@ -7,6 +7,12 @@
 
 	position: relative;
 
+	&--thin {
+		height: 18rem;
+		margin-bottom: 4rem;
+		background-image: url("../img/spring-roll.jpg");
+	}
+
 	&__heading, &__heading-2, &__button {
 		position: absolute;
 		text-shadow: -2px 1px $shadow;

@@ -131,6 +131,10 @@ a {
   background-position: center;
   background-size: cover;
   position: relative; }
+  .banner--thin {
+    height: 18rem;
+    margin-bottom: 4rem;
+    background-image: url("../img/spring-roll.jpg"); }
   .banner__heading, .banner__heading-2, .banner__button {
     position: absolute;
     text-shadow: -2px 1px white; }
@@ -203,7 +207,7 @@ a {
     .menu {
       margin-bottom: 2rem; } }
   .menu__container {
-    flex-basis: 50rem; }
+    flex-basis: 55rem; }
   .menu__title {
     text-align: center;
     margin-bottom: 1rem; }
