@@ -18,6 +18,10 @@
 		margin-bottom: 1rem;
 	}
 
+	&__button {
+		@include button-reset;
+	}
+
 	&__item {
 		margin-bottom: 1.6rem;
 	}
