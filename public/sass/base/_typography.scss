@@ -27,3 +27,19 @@ a {
 	text-decoration: none;
 	color: $color-black;
 }
+
+.menu-page {
+	font-size: 1.9rem;
+
+	@include respond(tab-land) {
+		font-size: 1.8rem;
+	}
+
+	@include respond(tab-port) {
+		font-size: 1.7rem;
+	}
+
+	@include respond(phone) {
+		font-size: 1.6rem;
+	}
+}

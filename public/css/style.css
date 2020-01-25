@@ -43,6 +43,18 @@ a {
   text-decoration: none;
   color: #000; }
 
+.menu-page {
+  font-size: 1.9rem; }
+  @media only screen and (max-width: 75em) {
+    .menu-page {
+      font-size: 1.8rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .menu-page {
+      font-size: 1.7rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .menu-page {
+      font-size: 1.6rem; } }
+
 .hamburger {
   padding: 0;
   border: none;
@@ -187,6 +199,8 @@ a {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center; }
+  .menu__container {
+    flex-basis: 40rem; }
   .menu__title {
     text-align: center; }
   .menu__section {
@@ -194,7 +208,6 @@ a {
   .menu__section-header {
     display: flex;
     justify-content: space-between;
-    max-width: 63rem;
     margin-bottom: 1rem; }
   .menu__button {
     padding: 0;
@@ -263,6 +276,10 @@ a {
     bottom: 30px;
     left: -16px; }
 
-body {
+.home-page {
+  padding-right: 8.3%;
+  padding-left: 8.3%; }
+
+.menu-page {
   padding-right: 8.3%;
   padding-left: 8.3%; }

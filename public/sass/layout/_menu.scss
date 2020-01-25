@@ -3,6 +3,10 @@
 	display: flex;
 	justify-content: center;
 
+	&__container {
+		flex-basis: 40rem;
+	}
+
 	&__title {
 		text-align: center;
 	}
@@ -14,7 +18,6 @@
 	&__section-header {
 		display: flex;
 		justify-content: space-between;
-		max-width: 63rem;
 		margin-bottom: 1rem;
 	}
 
