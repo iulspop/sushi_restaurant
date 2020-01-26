@@ -61,8 +61,10 @@
 	}
 
 	&__item-image {
-		margin-top: 1rem;
+		display: block;
 		height: 21rem;
+		margin: auto;
+		margin-top: 1.5rem;
 
 		@media only screen and (max-width: 600px) {
 			height: 18rem;
