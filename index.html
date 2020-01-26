@@ -12,34 +12,32 @@
 </head>
 
 <body class="home-page">
-	<header>
-		<nav class="nav u-center-on-large-screen">
-			<div class="nav__left">
-				<a href="/" class="nav__logo">Sushi Quynh Anh</a>
-			</div>
+	<header class="header u-center-on-large-screen">
+		<div class="header__left">
+			<a href="/" class="header__logo">Sushi Quynh Anh</a>
+		</div>
 
-			<div class="nav__middle">
-				<a href="/" class="nav__link nav__link--hide-on-small-screen">Accueil</a>
-				<a href="/menu.html" class="nav__link">Menu</a>
-			</div>
-
-			<div class="nav__right">
-				<a href="tel:5142230382" class="nav__number-cta">Commandez Maintenant</a>
-				<a href="tel:5142230382" class="nav__number">(514) 223-0382</a>
-			</div>
+		<nav class="header__middle">
+			<a href="/" class="header__link header__link--hide-on-small-screen">Accueil</a>
+			<a href="/menu.html" class="header__link">Menu</a>
 		</nav>
 
-		<section class="banner u-center-on-large-screen">
-			<h1 class="banner__heading">
-				Votre coin sushi Roi-René<br>
-				Notre spécialité: le sushi personnalisé à vos besoins.
-			</h1>
-			<a class="banner__button link-button" href="tel:5142230382">Commandez maintenant!</a>
-		</section>
+		<div class="header__right">
+			<a href="tel:5142230382" class="header__number-cta">Commandez Maintenant</a>
+			<a href="tel:5142230382" class="header__number">(514) 223-0382</a>
+		</div>
 	</header>
 
+	<section class="banner u-center-on-large-screen">
+		<h1 class="banner__heading">
+			Votre coin sushi Roi-René<br>
+			Notre spécialité: le sushi personnalisé à vos besoins.
+		</h1>
+		<a class="banner__button link-button" href="tel:5142230382">Commandez maintenant!</a>
+	</section>
+
 	<main class="about u-center-on-large-screen">
-		<div class="about__first-group">
+		<section class="about__first-group">
 			<div class="about__story">
 				<h2>Notre Histoire</h2>
 				<p>Yung est chef de sushi à Anjou depuis 10 ans.
@@ -49,9 +47,9 @@
 			</div>
 
 			<img class="about__restaurant-img" src="/public/img/sushi-restaurant.jpg" alt="cute restaurant and sushi chef">
-		</div>
+		</section>
 
-		<div class="about__second-group">
+		<section class="about__second-group">
 			<div class="about__services">
 				<h2>Nos services</h2>
 				<p>Commandez sur téléphone et venez chercher votre sushi à emporter ou mangez au restaurant.
@@ -60,7 +58,7 @@
 			</div>
 			<img class="about__restaurant-img" src="/public/img/gratitude-board.jpg"
 				alt="board with notes from grateful customers">
-		</div>
+		</section>
 	</main>
 
 	<hr class="u-margin-bottom-small u-center-on-large-screen">
