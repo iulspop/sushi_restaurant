@@ -13,12 +13,9 @@
 		background-image: url("../img/spring-roll.jpg");
 	}
 
-	&__heading, &__heading-2, &__button {
+	&__heading {
 		position: absolute;
 		text-shadow: -2px 1px $shadow;
-	}
-
-	&__heading {
 		top: 30%;
 		left: 5%;
 
@@ -28,27 +25,32 @@
 		}
 		
 		@media only screen and (max-width: 400px) {
-			font-size: 2.3rem;
-			left: 2%;
-		}
-	}
-
-	&__heading-2 {
-		top: 40%;
-		left: 5%;
-
-		@media only screen and (max-width: 985px) {
-			font-size: 2.4rem;
-			top: 45%;
+			font-size: 2.35rem;
 		}
 
-		@media only screen and (max-width: 400px) {
-			font-size: 2.3rem;
-			left: 2%;
+		@media only screen and (max-width: 385px) {
+			font-size: 2.25rem;
+		}
+
+		@media only screen and (max-width: 375px) {
+			font-size: 2.15rem;
+		}
+
+		@media only screen and (max-width: 360px) {
+			font-size: 2.05rem;
+		}
+
+		@media only screen and (max-width: 340px) {
+			font-size: 1.9rem;
+		}
+
+		@media only screen and (max-width: 330px) {
+			font-size: 1.85rem;
 		}
 	}
 
 	&__button {
+		position: absolute;
 		top: 60%;
 		left: 5%;
 
@@ -63,6 +65,10 @@
 		@media only screen and (max-width: 400px) {
 			left: 50%;
 			transform: translateX(-50%);
+		}
+
+		@media only screen and (max-width: 285px) {
+			top: 85%;
 		}
 	}
 }
