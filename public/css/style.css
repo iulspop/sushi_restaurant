@@ -171,7 +171,8 @@ a {
         top: 70%; } }
     @media only screen and (max-width: 400px) {
       .banner__button {
-        left: 10%; } }
+        left: 50%;
+        transform: translateX(-50%); } }
 
 .footer {
   display: flex;
