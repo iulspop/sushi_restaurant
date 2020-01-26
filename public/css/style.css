@@ -199,6 +199,8 @@ a {
           width: 100%; } }
   .footer__section-title {
     margin-bottom: 2rem; }
+  .footer__icon {
+    margin-right: 1rem; }
   .footer__day {
     display: flex; }
   .footer__dotted-line {
