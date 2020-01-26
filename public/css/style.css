@@ -147,7 +147,7 @@ a {
         top: 35%; } }
     @media only screen and (max-width: 400px) {
       .banner__heading {
-        font-size: 1.9rem;
+        font-size: 2.3rem;
         left: 2%; } }
   .banner__heading-2 {
     top: 40%;
@@ -158,7 +158,7 @@ a {
         top: 45%; } }
     @media only screen and (max-width: 400px) {
       .banner__heading-2 {
-        font-size: 1.9rem;
+        font-size: 2.3rem;
         left: 2%; } }
   .banner__button {
     top: 60%;
