@@ -55,18 +55,6 @@ a {
     .menu-page {
       font-size: 1.6rem; } }
 
-.hamburger {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background: none; }
-  @media only screen and (min-width: 1000px) {
-    .hamburger {
-      display: none; } }
-  .hamburger__icon {
-    margin: 0 2rem; }
-
 .link-button {
   width: 20rem;
   height: 5rem;
@@ -75,6 +63,10 @@ a {
   font-size: 1.6rem;
   text-align: center;
   background-color: #FFF; }
+
+.link {
+  color: #F9E0D9;
+  text-decoration: underline; }
 
 .about {
   margin: 5rem 0;
