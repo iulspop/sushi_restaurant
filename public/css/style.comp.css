@@ -182,7 +182,7 @@ a {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap; }
   @media only screen and (max-width: 1250px) {
     .footer {
@@ -190,7 +190,7 @@ a {
   .footer__section {
     margin-bottom: 4rem; }
     .footer__section--schedule {
-      flex-basis: 25rem; }
+      flex-basis: 35rem; }
       @media only screen and (max-width: 1250px) {
         .footer__section--schedule {
           width: 60%; } }
