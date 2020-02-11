@@ -1,11 +1,10 @@
 @mixin button-reset {
-	padding: 0;
-	border: none;
-	font: inherit;
-	color: inherit;
-	background: none
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: none;
 }
-
 
 // MEDIA QUERY MANAGER (only used in _typography.scss)
 // 0 - 500px;      Phone
@@ -24,20 +23,28 @@
 
 // 1em == 16px, unless browser default changed by user
 @mixin respond($breakpoint) {
-	@if $breakpoint == phone {
-		// In SASS can write @media under a block directly without adding the class selector like in CSS.
-		 @media only screen and (max-width: 31.25em) { @content }; //400px
-	}												// rems and ems are NOT affected by root font size (on html element)
-													// that means rems and ems are always equal to the default font size of the browser
-													// rems fail to work as intented in some browers, so we use ems
-													// experiments done by some people show ems are best for media queries
-	@if $breakpoint == tab-port {
-		 @media only screen and (max-width: 56.25em) { @content }; //900px
-	}
-	@if $breakpoint == tab-land {
-		 @media only screen and (max-width: 75em) { @content }; //1200px
-	}
-	@if $breakpoint == big-desktop {
-		 @media only screen and (min-width: 112.5em) { @content }; //1800px
-	}
+  @if $breakpoint == phone {
+    // In SASS can write @media under a block directly without adding the class selector like in CSS.
+    @media only screen and (max-width: 31.25em) {
+      @content;
+    } //400px
+  } // rems and ems are NOT affected by root font size (on html element)
+  // that means rems and ems are always equal to the default font size of the browser
+  // rems fail to work as intented in some browers, so we use ems
+  // experiments done by some people show ems are best for media queries
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    } //1800px
+  }
 }
