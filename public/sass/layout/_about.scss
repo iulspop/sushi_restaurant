@@ -1,63 +1,64 @@
 .about {
-	margin: 5rem 0;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-	@media only screen and (max-width: 1350px) {
-		flex-direction: column;
-		align-items: center;
-	}
+  @media only screen and (max-width: 1350px) {
+    flex-direction: column;
+    align-items: center;
+  }
 
-	@media only screen and (max-width: 700px) {
-		margin: 2rem 0;
-		margin-top: 1.5rem;
-	}
+  @media only screen and (max-width: 700px) {
+    margin: 2rem 0;
+    margin-top: 1.5rem;
+  }
 
-	&__first-group {
-		flex-basis: 100%;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		margin: 5rem 0;
+  &__first-group {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0;
 
-		@media only screen and (max-width: 1350px) {
-			display: block;
-			margin: 2rem 0;
-		}
-	}
+    @media only screen and (max-width: 1350px) {
+      display: block;
+      margin: 2rem 0;
+    }
+  }
 
-	&__second-group {
-		flex-basis: 100%;
-		display: flex;
-		flex-direction: row-reverse;
-		justify-content: space-around;
-		align-items: center;
-		margin: 5rem 0;
+  &__second-group {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0;
 
-		@media only screen and (max-width: 1350px) {
-			display: block;
-			margin: 2rem 0;
-		}
-	}
+    @media only screen and (max-width: 1350px) {
+      display: block;
+      margin: 2rem 0;
+    }
+  }
 
-	&__services, &__story {
-		max-width: 500px;
+  &__services,
+  &__story {
+    max-width: 500px;
 
-		& p {
-			text-align: justify;
-			margin-bottom: 2rem;
+    & p {
+      text-align: justify;
+      margin-bottom: 2rem;
 
-			@media only screen and (max-width: 400px) {
-				text-align: left;
-			}
-		}
-	}
-	
-	&__restaurant-img {
-		width: 100%;
-		max-width: 500px;
-		height: auto;
-		border-radius: 3px;
-	}
+      @media only screen and (max-width: 400px) {
+        text-align: left;
+      }
+    }
+  }
+
+  &__restaurant-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 3px;
+  }
 }

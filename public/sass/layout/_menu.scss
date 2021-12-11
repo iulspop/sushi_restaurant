@@ -1,73 +1,73 @@
 .menu {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
 
-	@media only screen and (max-width: 1000px) {
-		margin-bottom: 2rem;
-	}
+  @media only screen and (max-width: 1000px) {
+    margin-bottom: 2rem;
+  }
 
-	&__container {
-		flex-basis: 55rem;
-	}
+  &__container {
+    flex-basis: 55rem;
+  }
 
-	&__title {
-		text-align: center;
-		margin-bottom: 1rem;
-	}
+  &__title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 
-	&__section {
-		margin-bottom: 4rem;
-	}
+  &__section {
+    margin-bottom: 4rem;
+  }
 
-	&__section-header {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 1rem;
-	}
+  &__section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
 
-	&__button {
-		@include button-reset;
-		border: solid $color-grey 1px;
-		border-radius: 3px;
-		padding: .5rem 1rem;
+  &__button {
+    @include button-reset;
+    border: solid $color-grey 1px;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
 
-		&:hover {
-			cursor: pointer;
-		}
-	}
+    &:hover {
+      cursor: pointer;
+    }
+  }
 
-	&__item-list {
-		margin-left: 1.8rem;
-	}
+  &__item-list {
+    margin-left: 1.8rem;
+  }
 
-	&__item {
-		margin-bottom: 1.6rem;
-	}
+  &__item {
+    margin-bottom: 1.6rem;
+  }
 
-	&__item-header {
-		display: flex;
-		flex-basis: 10rem;
-	}
+  &__item-header {
+    display: flex;
+    flex-basis: 10rem;
+  }
 
-	&__item-name {
-		font-weight: 700;
-	}
+  &__item-name {
+    font-weight: 700;
+  }
 
-	&__dotted-line {
-		flex-grow: 1;
-		border-bottom: dotted black 2px;
-		transform: translateY(-7px);
-	}
+  &__dotted-line {
+    flex-grow: 1;
+    border-bottom: dotted black 2px;
+    transform: translateY(-7px);
+  }
 
-	&__item-image {
-		display: block;
-		height: 21rem;
-		margin: auto;
-		margin-top: 1.5rem;
+  &__item-image {
+    display: block;
+    height: 21rem;
+    margin: auto;
+    margin-top: 1.5rem;
 
-		@media only screen and (max-width: 600px) {
-			height: 18rem;
-		}
-	}
+    @media only screen and (max-width: 600px) {
+      height: 18rem;
+    }
+  }
 }

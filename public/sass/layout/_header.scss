@@ -1,65 +1,67 @@
 .header {
-	height: 135px;
-	background-color: $color-transparent;
-	display: flex;
-	justify-content: space-between;
-	
-	@media only screen and (max-width: 1000px){
-		height: 75px;
-		border-bottom: solid 1px $color-grey;
-		margin-bottom: 25px;
-	}
+  height: 135px;
+  background-color: $color-transparent;
+  display: flex;
+  justify-content: space-between;
 
-	&__left, &__middle, &__right {
-		align-self: center;
-	}
+  @media only screen and (max-width: 1000px) {
+    height: 75px;
+    border-bottom: solid 1px $color-grey;
+    margin-bottom: 25px;
+  }
 
-	&__middle {
-		flex-basis: 20rem;
-		display: flex;
-		justify-content: space-between;
+  &__left,
+  &__middle,
+  &__right {
+    align-self: center;
+  }
 
-		@media only screen and (max-width: 600px){
-			justify-content: end;
-			flex-basis: 0;
-		}
-	}
+  &__middle {
+    flex-basis: 20rem;
+    display: flex;
+    justify-content: space-between;
 
-	&__right {
-		position: relative;
+    @media only screen and (max-width: 600px) {
+      justify-content: end;
+      flex-basis: 0;
+    }
+  }
 
-		@media only screen and (max-width: 1000px){
-			display: none;
-		}
-	}
+  &__right {
+    position: relative;
 
-	&__logo {
-		font-size: 2.3rem;
+    @media only screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
 
-		@media only screen and (max-width: 400px){
-			font-size: 2rem;
-		}
-	}
+  &__logo {
+    font-size: 2.3rem;
 
-	&__link {
-		font-weight: 400;
+    @media only screen and (max-width: 400px) {
+      font-size: 2rem;
+    }
+  }
 
-		&--hide-on-small-screen {
-			@media only screen and (max-width: 600px){
-				display: none;
-			}
-		}
-	}
+  &__link {
+    font-weight: 400;
 
-	&__number {
-		font-size: 2.3rem;
-	}
+    &--hide-on-small-screen {
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
 
-	&__number-cta {
-		position: absolute;
-		width: 200px;
-		font-size: 1.5rem;
-		bottom: 30px;
-		left: -16px;
-	}
+  &__number {
+    font-size: 2.3rem;
+  }
+
+  &__number-cta {
+    position: absolute;
+    width: 200px;
+    font-size: 1.5rem;
+    bottom: 30px;
+    left: -16px;
+  }
 }
